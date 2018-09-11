@@ -5,10 +5,11 @@ import json
 import twitter
 from watson_developer_cloud import PersonalityInsightsV2 as PersonalityInsights
 
-twitter_consumer_key = 'RWGzgAEeYqhK2oM4BMgDnHLUn'
-twitter_consumer_secret = 'murwLKC0hCNVgdh45tlsJtARAQDh0vzyojiNf7hGWcjA8Cr34Q'
-twitter_access_token = '829310974284935168-PsDjsAr5KQaMQIN1aUHFupqKwWh0y2q'
-twitter_access_secret = 'bzIi7lrxim0je3PMNyOzaaOOWkDG7nnlrqeoUyy3pYW41'
+#access these details by logging on to: https://apps.twitter.com 
+twitter_consumer_key = ''
+twitter_consumer_secret = ''
+twitter_access_token = ''
+twitter_access_secret = ''
 
 twitter_api = twitter.Api(consumer_key=twitter_consumer_key, consumer_secret=twitter_consumer_secret, access_token_key=twitter_access_token, access_token_secret=twitter_access_secret)
 
